@@ -1,0 +1,359 @@
+    1  cd
+    2  ls
+    3  ssh student11@gw.cita.utoronto.ca
+    4  cd
+    5  help
+    6  cd
+    7  ls
+    8  ssh lobster
+    9  pwd
+   10  cd
+   11  pwd
+   12  cd ..
+   13  pwd
+   14  ls
+   15  cd cta200/
+   16  pwd
+   17  ls
+   18  find -name '*auss*'
+   19  echo $0
+   20  find -name "gauss2d"
+   21  pwd
+   22  cd student11
+   23  cd ..
+   24  cd student11
+   25  ls
+   26  ls -la
+   27  cd..
+   28  cd ..
+   29  ls
+   30  cd mnt
+   31  ls
+   32  cd scrath-lustre
+   33  cd scratch-lustre/
+   34  ls
+   35  cd student11
+   36  ls
+   37  ls -la
+   38  pwd
+   39  mkdir gauss2d
+   40  cd ..
+   41  pwd
+   42  cd ..
+   43  cd home/
+   44  cd cta200/
+   45  dir
+   46  dir Documents
+   47  dir Documents/
+   48  dir Research
+   49  find -name '*auss*'
+   50  .
+   51  cd
+   52  pwd
+   53  cd/
+   54  cd /
+   55  pwd
+   56  cd mnt
+   57  cd scratch-lustre/
+   58  cd student11
+   59  mkdir gauss2d
+   60  dir
+   61  dir .
+   62  cd /
+   63  pwd
+   64  cd home
+   65  cd
+   66  pwd
+   67  mkdir gauss2d
+   68  ls
+   69  ls -la
+   70  cd gauss2d/
+   71  mkdiir src
+   72  cd ..
+   73  pwd
+   74  mkdir src
+   75  mkdir opt
+   76  mkdir bin
+   77  mkdir lib
+   78  ls -la
+   79  cp -av /home/cta200/Research/gauss2d/ gauss2d/
+   80  ls
+   81  dir gauss2d
+   82  dirgauss2d/gauss2d
+   83  dir gauss2d/gauss2d
+   84  less gauss2d.cc
+   85  ls
+   86  cd gauss2d
+   87  ls
+   88  cd gauss2d
+   89  less gauss2d.cc
+   90  ls
+   91  cat Makefile
+   92  vim plot.py
+   93  gedit plot.py
+   94  g++ gauss2d.cc -o gauss2d
+   95  ls -lt
+   96  ./gauss2d > data.txt
+   97  module load python/2.7.12
+   98  ./script.py < data.txt
+   99  pwd
+  100  module load python
+  101  ./script.py
+  102  pwd
+  103  ls
+  104  ./plot.py
+  105  ssh lobster
+  106  whoami
+  107  echo $HOSTNAME
+  108  $USER
+  109  echo USER
+  110  who
+  111  echo $0
+  112  top
+  113  ssh lobster
+  114  pwd
+  115  cd gauss2d
+  116  pwd
+  117  ./plot.py < data.txt
+  118  module load python/3.10.2 
+  119  ./plot.py
+  120  ./plot.py < data.txt
+  121  ssh cosmo4
+  122  pwd
+  123  cd gauss2d
+  124  less plot.py
+  125  head -1 plot.py
+  126  module load python
+  127  ./plot.py
+  128  .plot.py data.txt
+  129  ./plot.py data.txt
+  130  ./gauss2d | ./plot.py
+  131  less Makefile
+  132  ./gauss2d -help
+  133  pwd
+  134  ls
+  135  cd gauss2d
+  136  pwd
+  137  ls
+  138  module load python
+  139  ./plot.py data.txt
+  140  ./gauss2d | ./plot.py
+  141  less gauss2d.cc
+  142  ./gauss2d -xdim 100 -ydim 50 | ./plot.py
+  143  ./gauss2d -xsigma 30 | ./plot.py
+  144  ./gauss2d | ./plot.py
+  145  top
+  146  ps aux
+  147  ./gauss2d | ./plot.py
+  148  /
+  149  pwd
+  150  cd /
+  151  pwd
+  152  /mnt/
+  153  cd mnt
+  154  lst
+  155  cd
+  156  dir
+  157  ls
+  158  cd /
+  159  ls
+  160  cd mnt
+  161  ls -la
+  162  cd scratch-lustre/
+  163  cd student11
+  164  ls
+  165  dir
+  166  ls -la
+  167  cd
+  168  pwd
+  169  cd /
+  170  pwd
+  171  cd mnt/scratch-lustre/student11/
+  172  mkdir CTA200_2023
+  173  cd CTA200_2023/
+  174  mkdir assignment_1
+  175  cd assignment_1/
+  176  cat README.md
+  177  cd /
+  178  cd /mnt/scratch-lustre/student11
+  179  pwd
+  180  git clone https://github.com/beniz/eigemvn
+  181  git clone https://github.com/beniz/eigenmvn
+  182  ls
+  183  cd eigenmvn/
+  184  ls
+  185  -I/usr/include
+  186  cd /
+  187  pwd
+  188  -I/usr/include
+  189  ls
+  190  cd usr
+  191  ls
+  192  ls -la
+  193  module avail gcc
+  194  module load gcc/4.9.2
+  195  pwd
+  196  ls
+  197  cd /
+  198  ls
+  199  cd mnt/scratch-lustre/
+  200  cd student11
+  201  ls
+  202  cd CTA200_2023/
+  203  cat > README.md
+  204  ls
+  205  less README.md
+  206  vi README.md
+  207  /c
+  208  /
+  209  cd /
+  210  ls
+  211  cd home
+  212  cd
+  213  cd ..
+  214  pwd
+  215  cd
+  216  pwd
+  217  cd ..
+  218  cd murray
+  219  find -name 'Hello_world*'
+  220  find -name 'Hello_world.c'
+  221  ls
+  222  cp /home/murray/Hello_world.c /mnt/scratch-lustre/student11/CTA200_2023/assignment_1/
+  223  cp /home/murray/Hello_world.py /mnt/scratch-lustre/student11/CTA200_2023/assignment_1/
+  224  cd
+  225  cd /mnt/scratch-lustre/student11
+  226  ls
+  227  cd CTA200_2023/
+  228  ls
+  229  cd assignment_1/
+  230  ls
+  231  mv /mnt/scratch-lustre/student11/CTA200_2023/README.md /mnt/scratch-lustre/student11/CTA200_2023/assignment_1/
+  232  ls
+  233  cd ..
+  234  ls
+  235  pwd
+  236  module avail
+  237  module
+  238  pwd
+  239  cd /
+  240  cd home
+  241  cd cta200/
+  242  find -name '*auss*'
+  243  cd /
+  244  cd mnt/
+  245  cd scratch-lustre/
+  246  cd student11
+  247  ls
+  248  mkdir gauss2d
+  249  ls
+  250  ls -la
+  251  cp /home/cta200/Research/gauss2d/ /mnt/scratch-lustre/student11/gauss2d/
+  252  cp -av /home/cta200/Research/gauss2d/ /mnt/scratch-lustre/student11/gauss2d/
+  253  man cp
+  254  ls
+  255  pwd
+  256  cd gauss2d
+  257  ls
+  258  cd
+  259  cd gauss2d
+  260  ls
+  261  cd /mnt/scratch-lustre/student11
+  262  ls
+  263  cd gauss2d
+  264  ls
+  265  cd gauss2d
+  266  ls
+  267  less gaus2d.cc
+  268  less gauss2d.cc
+  269  cat gauss2d.cc
+  270  vim plot.py
+  271  gedit plot.py
+  272  module avail
+  273  module load gcc/5.4.0
+  274  g++ gauss2d.cc -o gauss2d
+  275  ./gauss2d > data.txt
+  276  cd
+  277  ls
+  278  cd /mnt/scratch-lustre/student11/gauss2d/gauss2d/
+  279  ls
+  280  module load gcc/5.4.0
+  281  module avail
+  282  module load python/3.10.2
+  283  ls
+  284  less gauss2d
+  285  plot.py
+  286  head plot.py
+  287  ./gauss2d | ./plot.py
+  288  ls -la ~
+  289  cd ..
+  290  ls
+  291  pwd
+  292  cd eigenmvn/
+  293  ls
+  294  git pull
+  295  cd ..
+  296  pwd
+  297  cd student11
+  298  cd CTA200_2023/
+  299  cd /mnt/scratch-lustre/student11/
+  300  rmdir CTA200_2023/
+  301  rm CTA200_2023/
+  302  rmdir -r CTA200_2023/
+  303  rm -r CTA200_2023/
+  304  ls
+  305  cat > README.md
+  306  ls
+  307  less README.md 
+  308  rm README.md 
+  309  history
+  310  vi README.md
+  311  ls
+  312  echo > README.md
+  313  ls
+  314  vi README.md 
+  315  vi README.md
+  316  less README.md 
+  317  vi README.md 
+  318  less README.md 
+  319  history
+  320  find /home/murray/ 'Hello_world.*'
+  321  find /home/murray/ 'Hello_world.c'
+  322  find /home/murray/ -name 'Hello_world.*'
+  323  find /home/murray/ -name 'Hello_world.py'
+  324  find /home/murray/ -name 'Hello_world.*' -print
+  325  find /home/murray/ 'Hello_world.*' 2>/dev/null
+  326  find /home/murray/ 'Hello_world.*' -print 2>/dev/null
+  327  find /home/murray/ 'Hello_world.py' 2>/dev/null
+  328  find /home/murray/ -name 'Hello_world.py' 2>/dev/null
+  329  find /home/murray/ -name 'Hello_world.*' 2>/dev/null
+  330  module avail
+  331  cd /mnt/scratch-lustre/student11
+  332  mkdir CTA200_2023
+  333  cd CTA200_2023/
+  334  mkdir assignment_1
+  335  cd assignment_1/
+  336  echo README.md
+  337  vi README.md
+  338  find /home/murray/ -name 'Hello_world.*' 2>/dev/null
+  339  cp -av /home/murray/Hello_world.c /mnt/scratch-lustre/student11/CTA200_2023/assignment_1/
+  340  cp -av /home/murray/Hello_world.py /mnt/scratch-lustre/student11/CTA200_2023/assignment_1/
+  341  mv Hello_world.c Hello_world_Li.c
+  342  mv Hello_world.py Hello_world_Li.py
+  343  module avail
+  344  module load gcc/5.4.0
+  345  gcc Hello_world_Li.c
+  346  ./Hello_world_Li.c
+  347  gcc Hello_world_Li.c -o Hello_world_Li
+  348  ./Hello_world_Li
+  349  module load python/3.10.2
+  350  ./Hello_world_Li.py
+  351  python Hello_world_Li.py
+  352  vi Hello_world_Li.c
+  353  vi Hello_world_Li.py
+  354  gcc Hello_world_Li.c -o Hello_world_Li
+  355  ./Hello_world_Li > output_c.txt
+  356  python Hello_world_Li.py > output_python.txt
+  357  less output_c.txt 
+  358  less output_python.txt
+  359  history > history.txt
